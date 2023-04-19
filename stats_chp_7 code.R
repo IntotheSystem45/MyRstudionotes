@@ -1,3 +1,5 @@
+normal curves = Unimodel and symmetrical
+Stardard normal curves mean = 0, sigma = 1 - mean = median = mode
 7.1
 #use qnorm when given area to find z-score
 #use pnorm when given z-score 
@@ -16,6 +18,8 @@ qnorm(.41, 0, 1, lower.tail = FALSE)
 
 
 7.2
+m = #popul mean
+sigma = #pop. std
 #pnorm(x, mu, sigma) & qnorm(area, mu, sigma)
 
 x = 
@@ -33,6 +37,7 @@ qnorm(area, mu, sigma, lower.tail = )
 # mu-underscor-xbar = mu 
 # sigma-underscore-xbar = sigma/sqrt(n)
 
+# use this method when given, sample mean, populaiton std, 
 #pnorm(xbar prob, xbar mean = 28, xbar standard deviation = 3/sqrt(60))
 
 pnorm(45, 48, 12/sqrt(115), lower.tail = FALSE)
@@ -60,7 +65,7 @@ pnorm(.12, .07, .0137, lower.tail = TRUE) - pnorm(.065, .07, .0137, lower.tail =
 
 qnorm()
 
-# np and n(1-P) > 10 it is normmaly disturbted with a mean of p and std(phat) = sqrt(p(1-p)/n)
-
+# both np and n(1-P) > 10 to find a sample size given a proprotion.
+it is normmaly disturbted with a mean of p and std(phat) = sqrt(p(1-p)/n)
 
 #np and n(1-p) = 10 can be used to find the sample that is normaly disturbted 
