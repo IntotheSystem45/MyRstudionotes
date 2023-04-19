@@ -147,4 +147,4 @@ z
 2*pnorm(z, 0, 1, lower.tail = FALSE) # p-value - the lower.tail is true if p-alt. is !=(not equal)
 
 
-
+if test statsitic is lower than the mean Lower.tail is true 
