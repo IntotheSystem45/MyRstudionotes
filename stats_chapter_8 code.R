@@ -48,7 +48,7 @@ n
 
 8.3 Condifence intevals for porportiosn 
 
-z = qnorm(0.999, 0, 1, lower.tail = TRUE)
+z = qnorm(0.999, 0, 1, lower.tail = TRUE) # critcal value: e.g 95% = .9725
 
 phat = 165/519 # 
 n = 519
