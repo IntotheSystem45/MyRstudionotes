@@ -29,7 +29,7 @@ sigma = #pop. std
 x = 44
 mu = 39
 sigma = 4
-pnorm(x, mu, sigma, lower.tail = TRUE) 
+pnorm(x, mu, sigma, lower.tail = TRUE) # Used this if givren to find thr ptobalbity for an indivudal
 
 
 z = x-mu/sigma
